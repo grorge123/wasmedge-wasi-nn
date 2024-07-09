@@ -16,6 +16,7 @@ pub enum GraphEncoding {
     Autodetec,
     Ggml,
     NeuralSpeed,
+    ChatTTS,
 }
 
 /// Define where the graph should be executed.

@@ -164,6 +164,7 @@ impl GraphEncoding {
             9 => "WHISPER",
             10 => "MLX",
             11 => "PIPER",
+            12 => "CHATTTS",
             _ => unsafe { core::hint::unreachable_unchecked() },
         }
     }
